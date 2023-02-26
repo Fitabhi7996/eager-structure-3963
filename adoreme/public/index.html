@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Cameras, Lenses, Audio, Video, Drones & Instruments | Adoreme</title>
+</head>
+
+<body>
+  <div>
+    <div class="nav">
+      <p style="color: yellow;">UNLOCK EXCLUSIVE OFFERS </p>
+      <p style="color: white;">when you sign up for email & texts.</p>
+      <p style="color: blue;">SIGN UP NOW</p>
+    </div>
+    <div class="nav1">
+      <div class="nav12">
+        <div>BUSINESS,EDU&GOV</div>
+        <div>ADORAMA RENTALS</div>
+        <div>PRINTIQUE</div>
+        <div>OUR BLOG</div>
+      </div>
+      <div class="nav13">
+        <div>800.233.2500</div>
+        <div>Live Chat</div>
+        <div>Help</div>
+      </div>
+    </div>
+    <div class="nav2">
+      <div class="nav21">
+        <img
+          src="data:image/png;base64,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"
+          alt="ok">
+      </div>
+      <div class="nav22">
+        <input type="text" placeholder="Search">
+        <div style="color: white;padding-top: 10px;">Sign in My Account</div>
+        <div style="color: white;padding-top: 10px;">Cart</div>
+      </div>
+
+    </div>
+    <div class="nav3">
+      <div class="nav31">
+        <div>Products</div>
+        <div>Brands</div>
+        <div>Used</div>
+        <div>Deals</div>
+      </div>
+      <div class="nav32">
+        <div>Deal of the Day</div>
+        <div>Adorama Credit Card</div>
+        <div>VIP Rewards</div>
+        <div>Gift Cards</div>
+        <div>Student</div>
+        <div>#CreateNoMatterWhat</div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://www.adorama.com/images/cms/36471Hero-Semi-Annual-Desktop@2x_11210.jpg" alt="pic1"></div>
+      <div class="swiper-slide"><img src="https://www.adorama.com/images/cms/36471New-Blackmagicdesign-022023-Hero-Desktop_(1)_65733.jpg" alt="pic2"></div>
+      <div class="swiper-slide"><img src="https://www.adorama.com/images/cms/36471NPA-Sony-50mm-GM-Hero-Desktop-PO@1.25x_73027.jpg" alt="pic3"></div>
+      <div class="swiper-slide"><img src="https://www.adorama.com/images/cms/36471Feb_Computer_and_Gaming_Week-Hero-Desktop_09496.jpg" alt="pic4"></div>
+      <div class="swiper-slide"><img src="https://www.adorama.com/images/cms/36471Hero-Presidents-Day-Sale-Desktop@2x_10411.jpg" alt="pic5"></div>
+      <div class="swiper-slide"><img src="https://www.adorama.com/images/cms/36471Adorama-Edge-Presidents-Week-Hero-Desktop@1.5x_67252.jpg" alt="pic6"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <br>
+  <br>
+  <div id="top">
+    <div><h1 style="color: white;">OUR TOP DEALS</h1></div>
+    <div id="deals">
+      <!-- <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div> -->
+    </div>
+  </div>
+  <br>
+  <br>
+
+    <div id="footer">
+      <div id="f1">
+        <div>
+          <h2>How Can We Help?</h2>
+          <div>Customer Service</div>
+          <div>Track Your Order</div>
+          <div>Shipping & Delivery</div>
+          <div>In-Store Pickup</div>
+          <div>International Orders</div>
+          <div>Return Policy</div>
+          <div>Contact Us</div>
+          <div>Warranties</div>
+          <div>Accessibility Policy</div>
+        </div>
+        <div>
+          <h2>Services & Programs</h2>
+          <div>Adorama Business,Education & Government</div>
+          <div>Adorama Edge Credit Card</div>
+          <div>VIP Rewards</div>
+          <div>Students</div>
+          <div>Adorama</div>
+          <div>Photo Printing</div>
+          <div>Camera Rentals</div>
+          <div>Sell Used Equipment</div>
+          <div>Authorized Apple Service</div>
+        </div>
+        <div>
+          <h2>Who We Are</h2>
+          <div>About Adorama</div>
+          <div>Our History</div>
+          <div>Creater Highlights</div>
+          <div>Adorama Reviews</div>
+          <div>Map & Directions</div>
+          <div>Events</div>
+          <div>Learning Center</div>
+          <div>Brands</div>
+          <div>Affiliate Program</div>
+          <div>Careers</div>
+        </div>
+        <div>
+          <h2>Newsletter Signup</h2>
+          <div>Sign up for special offers, product news, exclusive deals, and more. Plus, VIP Reward Members earn $10 in reward points, $20 for VIP Pro members when they sign up through 2/28/23.</div>
+          <input type="text" placeholder="Your email"><span><button>Submit</button></span>
+        </div>
+      </div>
+      <div id="footend">
+        <div>
+          <div style="padding-top: 15px;">Copyright Adorama Camera, Inc. All rights reserved.</div>
+          <div>
+            <img height="40px" src="https://adorama.com/artworks2/icon-BBB.png" alt="piv">
+            <img height="40px" src="https://adorama.com/artworks2/icon-BBB.png" alt="piv">
+            <img height="40px" src="https://medals.bizrate.com/awards/horizontal/22495_coe.gif" alt="piv">
+            <img height="40px" src="https://medals.bizrate.com/medals/dynamic/22495_medal.gif" alt="piv">
+          </div>
+        </div>
+
+      </div>
+    </div>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+<script>
+        let bag=[]
+    let cartItems=JSON.parse(localStorage.getItem("cartProducts"))||[];
+    let url = "http://localhost:9090/products"
+    fetch(url)
+    .then((res)=> res.json())
+    .then((data)=> {
+        bag = data;
+        console.log(data);
+        displayCard(data);
+    });
+
+    function displayCard(data){
+        // document.querySelector("#container").innerHTML="";
+
+        data.forEach(function(elem){
+        let div = document.createElement("div")
+
+        let image = document.createElement("img")
+        image.setAttribute("src",elem.image)
+        let title = document.createElement("div")
+        title.innerText= elem.title
+        let cost = document.createElement("p");
+        cost.innerHTML="<b>Instant Rebate-$</b>"+elem.price
+        let dis = document.createElement("p")
+        dis.innerText="Price:$"+elem.saving
+        // dis.style.color="green"
+
+        let btn = document.createElement("button")
+        btn.innerText="Add to Cart";
+        btn.style.backgroundColor="skyblue"
+        btn.addEventListener("click",function(){
+            cartItems.push(elem)
+            localStorage.setItem("cartProducts",JSON.stringify(cartItems))
+        })
+
+        div.append(image,title,cost,dis)
+
+        document.querySelector("#deals").append(div)
+        })
+        
+    }
+</script>

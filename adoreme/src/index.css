@@ -1,0 +1,260 @@
+.nav{
+    height: 30px;
+    width: 100%;
+    font-size: smaller;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.nav>p{
+    margin-top: 10px;
+}
+
+.nav1{
+    height: 30px; ;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #004184;
+    color: white;
+    font-size: smaller;
+    
+}
+
+.nav12{
+    height: 30px;
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.nav13{
+    height: 30px;
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-right: 25px;
+}
+
+.nav2{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #003573;
+
+}
+
+.nav21{
+    height: 70px;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+}
+
+input{
+    height: 30px;
+    width: 60%;
+    border-radius: 50px;
+}
+.nav22{
+    height: 70px;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;  
+    padding-top: 15px;  
+    margin-right: 27px;
+}
+
+.nav3{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #0050a2;
+}
+
+.nav31{
+    height: 40px;
+    width: 25%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    color: white;
+}
+
+.nav32{
+    height: 40px;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+    padding-top: 10px;
+    color: white;
+}
+
+/* slider */
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      /* background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000; */
+      margin: 0;
+      /* padding: 0; */
+    }
+
+    .swiper {
+      width: 100%;
+      height: 70%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #top{
+        padding-top: 10px;
+        height: 550px;
+        width: 90%;
+        /* border: 1px solid red; */
+        padding: auto;
+        text-align: center;
+        margin: auto;
+        background-color: #003773;
+    }
+
+    #deals{
+        height: 400px;
+        width: 98%;
+        /* border: 1px solid red; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    #deals>div{
+        height: 400px;
+        width: 95%;
+        /* border: 1px solid red; */
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    #deals{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    #deals>div>img{
+        width: 100%;
+    }
+
+    #deals>div{
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    }
+
+    #footer{
+        height: 400px;
+        width: 100%;
+        /* border: 1px solid red; */
+        background-color: #003f86;
+        color: white;
+    }
+
+    #f1{
+        height: 350px;
+        width: 90%;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between; 
+    }
+
+    #f1>div{
+        height: 300px;
+        width: 20%;
+        /* border: 1px solid red; */
+    }
+    #f1>div>div{
+        color: #7e9abb;
+        /* background-color: black; */
+    }
+    #f1>:nth-child(4){
+        width: 30%;
+    }
+
+    #f1>:nth-child(4)>input{
+        background-color: #4868a0;
+        width: 80%;
+        margin-top: 10px;
+        border-radius: 0px;
+        border: none;
+    }
+    #f1>:nth-child(4)>input>::placeholder{
+        color: white;
+    }
+
+    #f1>:nth-child(4)>span>button{
+        padding: 7px 10px;
+        background-color: #066bcf;
+        border: none;
+        color: white;
+        font-size: medium;
+    }
+
+    #footend{
+        height: 50px;
+        width: 100%;
+        /* border: 1px solid red; */
+        background-color: #002952;
+        margin: auto;
+
+    }
+    
+    #footend>div{
+        height: 50px;
+        width: 90%;
+        /* border: 1px solid red; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
